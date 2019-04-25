@@ -1,0 +1,10 @@
+line-bot-sdk
+flask
+LINE-bot-sdk
+flask
+gevent
+gunicorn
+simplejson
+requests
+honcho
+bs4
