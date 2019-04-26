@@ -71,7 +71,7 @@ def handle_message(event):
 			)
 		)
 	elif event.message.text == '自我簡介':
-		message = [TextSendMessage(text='您好~我是目前就讀政治大學資管所碩一的林郁豪\n高中曾擔任優良學生、英語研究社副社長，大學參加過系壘、系排系學會幹部，也擔任各大活動負責人\n從大學就開始學習各種程式語言，喜歡探索各種新奇的事物，因此也對開發各種程式很有興趣\n很高興有機會可以來LINE實習'), StickerSendMessage(package_id='2',sticker_id='502')]
+		message = [TextSendMessage(text='您好~我是目前就讀政治大學資管所碩一的林郁豪\n高中曾擔任優良學生、英語研究社副社長，大學參加過系壘、系排系學會幹部，也擔任各大活動負責人\n從大學就開始學習各種程式語言，喜歡探索各種新奇的事物，因此也對開發各種程式很有興趣\n很高興有機會可以來LINE實習'), ImageSendMessage(original_content_url='https://github.com/ho4849123/Line_ChatBot/blob/master/Line-Bot-master/line-bot-tutorial-master/%E7%85%A7%E7%89%87.jpg?raw=true',preview_image_url='https://github.com/ho4849123/Line_ChatBot/blob/master/Line-Bot-master/line-bot-tutorial-master/%E7%85%A7%E7%89%87.jpg?raw=true')]
 	elif event.message.text == '程式語言':
 		message = [TemplateSendMessage(
 			alt_text='ImageCarousel template',
